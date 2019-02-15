@@ -3,6 +3,9 @@ import './landingpage.css';
 import '../main.js';
 
 import NavBar from '../components/NavBar';
+import pic2 from '../image/pic2.jpg';
+import pic3 from '../image/pic3.jpg'
+
 
 
 
@@ -26,7 +29,7 @@ class landingpage extends Component
                             earum tenetur enim.
             </p>
                     </div>
-                    <img src="./img/pic2.jpg" alt="graffiti" height="520" width="600" />
+                    <img src={pic3} alt="graffiti" height="520" width="600" />
                 </div>
             </div>
 
@@ -41,7 +44,7 @@ class landingpage extends Component
                             earum tenetur enim.
             </p>
                     </div>
-                    <img src="../img/train2.jpg" alt="graffiti" height="520" width="600" />
+                    <img src={pic2} alt="graffiti" height="520" width="600" />
                 </div>
             </div>
 

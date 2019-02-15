@@ -14,7 +14,9 @@ class NavBar extends Component {
               <li>
                 <a href='/'>Total 80's</a>
                 <div class='tab'>
-                  <h4 class='title'>This is a title of the second tab</h4>
+                  <h4 class='SignIn'>Sign In</h4>
+                  <h4 class='SignIn'>Sign Out</h4>
+
                 </div>
               </li>
               <li>
@@ -24,39 +26,44 @@ class NavBar extends Component {
                     <a href='/fadcards'>Toys </a>
                   </li>
                   <li>
-                    <a href='#'>page1</a>
+                    <a href='#'>Games</a>
                   </li>
                   <li>
                     <a href='#'>Third Client</a>
-                  </li>
-                  <li>
-                    <a href='#'>Client 4</a>
-                  </li>
-                  <li>
-                    <a href='#'>This is the fifth client</a>
-                  </li>
-                  <li>
-                    <a href='#'>Sixth Client</a>
-                  </li>
-                  <li>
-                    <a href='#'>Client Number 7</a>
-                  </li>
+                  </li>            
                 </ul>
               </li>
+
               <li>
                 <a href='/first'>80's Music</a>
                 <ul class='tab'>
                   <li>
-                    <a href='#'>Clients and other associates</a>
+                    <a href='#'>BillBoard TopHits</a>
                   </li>
                   <li>
-                    <a href='#'>Crew, Employees, Founders, Developers</a>
+                    <a href='#'>One Hit Wonders </a>
                   </li>
                   <li>
-                    <a href='#'>Information</a>
+                    <a href='#'>80 Music History</a>
                   </li>
                 </ul>
               </li>
+              <li>
+                <a href='/first'>80's Movies</a>
+                <ul class='tab'>
+                  <li>
+                    <a href='#'>BlockBuster</a>
+                  </li>
+                  <li>
+                    <a href='#'>Love Stories </a>
+                  </li>
+                  <li>
+                    <a href='#'>80 clasic's</a>
+                  </li>
+                </ul>
+              </li>
+
+
               <li>
                 <a href='#'>80'sHistory</a>
                 <ul class='tab'>
@@ -70,6 +77,7 @@ class NavBar extends Component {
                     <a href='#'>MileStone</a>
                   </li>
                 </ul>
+                
               </li>
             </ul>
           </nav>
