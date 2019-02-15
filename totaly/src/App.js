@@ -1,17 +1,29 @@
 import React, { Component } from 'react';
 import './App.css';
-import Landingpage from './landingpage';
-import NavBar from './NavBar/NavBar';
+import  landingpage  from './components/landingpage';
+// import NavBar from './components/NavBar';
+import first from './components/first.js';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Route from 'react-router-dom/Route';
+import fadcards from './components/fadcards';
+import toys from './components/toys';
+
 
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <NavBar />
-       <Landingpage />
-      
-      </div>
+      <Router>
+        <div className="App">
+          <Route path={"/"} exact component={landingpage} />
+          <Route path={"/first"} component={first} />
+          <Route path={"/fadcards"} component={fadcards} />
+          ;<Route path={'/toys'} component={toys} />
+
+         
+
+        </div>
+     </Router>
     );
   }
 }

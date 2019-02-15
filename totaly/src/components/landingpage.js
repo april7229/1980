@@ -1,28 +1,32 @@
 import React, { Component } from 'react';
 import './landingpage.css';
-import './main.js';
-import './img/train.jpg'
+import '../main.js';
+
+import NavBar from '../components/NavBar';
 
 
 
-class Landingpage extends Component
+
+
+class landingpage extends Component
 {
     render()
     {
         return (
             <div>
+                <NavBar />
         <section id="wrapper" class="skewed">
             <div class="layer bottom">
                 <div class="content-wrap">
                     <div class="content-body">
-                        <h1>Back in the Days</h1>
+                        <h1>Back To the Future</h1>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
                             cumque quidem numquam velit atque, exercitationem ullam voluptatum
                             earum tenetur enim.
             </p>
                     </div>
-                    <img src="./img/train.jpg" alt="graffiti" height="520" width="600" />
+                    <img src="./img/pic2.jpg" alt="graffiti" height="520" width="600" />
                 </div>
             </div>
 
@@ -50,4 +54,4 @@ class Landingpage extends Component
                 </div>
           )  };
 }
-export default Landingpage;
+export default landingpage;
