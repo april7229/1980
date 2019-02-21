@@ -1,7 +1,25 @@
 import React, { Component } from 'react';
 import carebears from '../image/carebears.jpg';
 import cabbage from '../image/cabbage.jpg';
-import NavBar from '../components/NavBar'
+import NavBar from '../components/NavBar';
+import teather from '../image/teather.jpg';
+import sea from '../image/sea.jpg';
+import teddy from '../image/teddy.jpg';
+import charm from '../image/charm.jpg';
+import madballs from '../image/madballs.jpg';
+import rainbow from '../image/rainbow.jpg';
+import slushy from '../image/slushy.jpg';
+import plush from '../image/plush.jpg';
+import trolls from '../image/trolls.jpg'
+import simon from '../image/simon.jpg'
+
+
+
+
+
+
+
+
 
 
 import './fadcards.scss';
@@ -18,12 +36,23 @@ class FadCard extends Component {
               <div class="card">
                 <div class="card__side card__side--front card__side--front-1">
                   <div class="card__description">
-                    <img src={cabbage} alt="Cabbage Patch Kids" />
-                    Cabbage Patch Kids 1980's
+                    <img
+                      src={carebears}
+                      alt="Carebears"
+                      width="240"
+                      height="180"
+                    />
+                    The Care Bears are a fictional group of multi-colored
+                    bear characters originally painted in 1981 by artist
+                    Elena Kucharik to be used on greeting cards from
+                    American Greetings, but later used for toys, in TV
+                    programs, and in films. There are 218 Care Bears to
+                    date.
                   </div>
                 </div>
                 <div class="card__side card__side--back card__side--back-1">
                   <div class="card__description">
+                    ;<img src={cabbage} alt="Cabbage Patch Kids" />
                     cabbage patch kids Cabbage Patch Kids are a line of
                     soft sculptured toy doll like creatures sold by Xavier
                     Roberts and registered in the United States copyright
@@ -36,39 +65,64 @@ class FadCard extends Component {
               </div>
               <div class="card">
                 <div class="card__side card__side--front card__side--front-2">
-                  <div class="card__description">
-                    <img
-                      src={carebears}
-                      alt="Italian Trulli"
-                      width="240"
-                      height="180"
-                      
-                    
-                    />
-                    Care Bears loveable and hugable
-                  </div>
+                  <div class="card__description" />
+                  <img
+                    src={teddy}
+                    alt="Italian Trulli"
+                    width="240"
+                    height="180"
+                  />
+                  Teddy Ruxpin is an animatronic children's toy in the
+                  form of a talking bear. The bear's mouth and eyes moved
+                  while "reading" stories that were played on an audio
+                  tape cassette deck built into its back.
                 </div>
                 <div class="card__side card__side--back card__side--back-2">
                   <div class="card__description">
-                    The Care Bears are a fictional group of multi-colored
-                    bear characters originally painted in 1981 by artist
-                    Elena Kucharik to be used on greeting cards from
-                    American Greetings, but later used for toys, in TV
-                    programs, and in films. There are 218 Care Bears to
-                    date.
+                    <img
+                      src={teather}
+                      alt="Italian Trulli"
+                      width="240"
+                      height="180"
+                    />
+                    Tetherball is a game for two opposing players. While
+                    not officially recognized as a sport, it is generally
+                    an outdoor activity. The equipment consists of a
+                    stationary metal pole, from which is hung a volleyball
+                    from a rope or tether.
                   </div>
                 </div>
               </div>
               <div class="card">
                 <div class="card__side card__side--front card__side--front-3">
-                  <div class="card__description">3</div>
+                  <div class="card__description">
+                    <img
+                      src={sea}
+                      alt="Italian Trulli"
+                      width="240"
+                      height="180"
+                    />
+                    Sea-Monkeys are a hybrid version of brine shrimp—a
+                    group of crustaceans that undergo cryptobiosis. Sea
+                    Monkeys are scientifically classified as Artemia NYOS,
+                    while brine shrimp are classified as Artemia salina
+                  </div>
                 </div>
                 <div class="card__side card__side--back card__side--back-3">
-                  <div class="card__description">
-                    <svg width="50" height="50" viewBox="0 0 24 24">
-                      <path d="M11.25,6A3.25,3.25 0 0,1 14.5,2.75A3.25,3.25 0 0,1 17.75,6C17.75,6.42 18.08,6.75 18.5,6.75C18.92,6.75 19.25,6.42 19.25,6V5.25H20.75V6A2.25,2.25 0 0,1 18.5,8.25A2.25,2.25 0 0,1 16.25,6A1.75,1.75 0 0,0 14.5,4.25A1.75,1.75 0 0,0 12.75,6H14V7.29C16.89,8.15 19,10.83 19,14A7,7 0 0,1 12,21A7,7 0 0,1 5,14C5,10.83 7.11,8.15 10,7.29V6H11.25M22,6H24V7H22V6M19,4V2H20V4H19M20.91,4.38L22.33,2.96L23.04,3.67L21.62,5.09L20.91,4.38Z" />
-                    </svg>
-                  </div>
+                  <div class="card__description" />
+                  <img
+                    src={charm}
+                    alt="Italian Trulli"
+                    width="240"
+                    height="180"
+                  />
+                  Every girl in the 80s had a few, right? Those beautiful
+                  brightly colored cheap plastic charms on a cheap plastic
+                  chain. Never before and never since has a pile of
+                  colorful plastic jewelry meant so much to a girl. They
+                  were crazy cheap, and EVERYWHERE. Some girls trading
+                  them with their friends, others simply could not part
+                  with them.
                 </div>
               </div>
             </div>
@@ -77,37 +131,95 @@ class FadCard extends Component {
             <div class="cards">
               <div class="card">
                 <div class="card__side card__side--front card__side--front-1">
-                  <div class="card__description">1</div>
+                  <div class="card__description">
+                    <img
+                      src={madballs}
+                      alt="Italian Trulli"
+                      width="240"
+                      height="180"
+                    />
+                    Madballs is a series of toy rubber balls originally
+                    created by AmToy, a subsidiary company of American
+                    Greetings in the mid-1980s, later being revived by Art
+                    Asylum and Just Play, Inc
+                  </div>
                 </div>
                 <div class="card__side card__side--back card__side--back-1">
                   <div class="card__description">
-                    <svg width="24" height="24" viewBox="0 0 24 24">
-                      <path d="M10.5,18A0.5,0.5 0 0,1 11,18.5A0.5,0.5 0 0,1 10.5,19A0.5,0.5 0 0,1 10,18.5A0.5,0.5 0 0,1 10.5,18M13.5,18A0.5,0.5 0 0,1 14,18.5A0.5,0.5 0 0,1 13.5,19A0.5,0.5 0 0,1 13,18.5A0.5,0.5 0 0,1 13.5,18M10,11A1,1 0 0,1 11,12A1,1 0 0,1 10,13A1,1 0 0,1 9,12A1,1 0 0,1 10,11M14,11A1,1 0 0,1 15,12A1,1 0 0,1 14,13A1,1 0 0,1 13,12A1,1 0 0,1 14,11M18,18C18,20.21 15.31,22 12,22C8.69,22 6,20.21 6,18C6,17.1 6.45,16.27 7.2,15.6C6.45,14.6 6,13.35 6,12L6.12,10.78C5.58,10.93 4.93,10.93 4.4,10.78C3.38,10.5 1.84,9.35 2.07,8.55C2.3,7.75 4.21,7.6 5.23,7.9C5.82,8.07 6.45,8.5 6.82,8.96L7.39,8.15C6.79,7.05 7,4 10,3L9.91,3.14V3.14C9.63,3.58 8.91,4.97 9.67,6.47C10.39,6.17 11.17,6 12,6C12.83,6 13.61,6.17 14.33,6.47C15.09,4.97 14.37,3.58 14.09,3.14L14,3C17,4 17.21,7.05 16.61,8.15L17.18,8.96C17.55,8.5 18.18,8.07 18.77,7.9C19.79,7.6 21.7,7.75 21.93,8.55C22.16,9.35 20.62,10.5 19.6,10.78C19.07,10.93 18.42,10.93 17.88,10.78L18,12C18,13.35 17.55,14.6 16.8,15.6C17.55,16.27 18,17.1 18,18M12,16C9.79,16 8,16.9 8,18C8,19.1 9.79,20 12,20C14.21,20 16,19.1 16,18C16,16.9 14.21,16 12,16M12,14C13.12,14 14.17,14.21 15.07,14.56C15.65,13.87 16,13 16,12A4,4 0 0,0 12,8A4,4 0 0,0 8,12C8,13 8.35,13.87 8.93,14.56C9.83,14.21 10.88,14 12,14M14.09,3.14V3.14Z" />
-                    </svg>
+                    <img
+                      src={slushy}
+                      alt="Italian Trulli"
+                      width="240"
+                      height="180"
+                    />
+                    This snow cone maker kit includes a padded clamp for
+                    stability, a Snoopy ice pusher, syrup bottle, flavor
+                    soft drink mix, a shovel and the Snoopy Sno-Cone
+                    Machine. It makes a thoughtful birthday or holiday
+                    gift for Snoopy and Peanuts fans.
                   </div>
                 </div>
               </div>
               <div class="card">
                 <div class="card__side card__side--front card__side--front-2">
-                  <div class="card__description">2</div>
+                  <div class="card__description">
+                    <img
+                      src={rainbow}
+                      alt="Italian Trulli"
+                      width="240"
+                      height="180"
+                    />
+                    Only one person on the planet Earth knows of Rainbow
+                    Brite, her best friend Brian. When things go wrong in
+                    our world, all he has to do is use his rainbow key and
+                    ask Rainbow Brite for help
+                  </div>
                 </div>
                 <div class="card__side card__side--back card__side--back-2">
                   <div class="card__description">
-                    <svg width="24" height="24" viewBox="0 0 24 24">
-                      <path d="M12,8L10.67,8.09C9.81,7.07 7.4,4.5 5,4.5C5,4.5 3.03,7.46 4.96,11.41C4.41,12.24 4.07,12.67 4,13.66L2.07,13.95L2.28,14.93L4.04,14.67L4.18,15.38L2.61,16.32L3.08,17.21L4.53,16.32C5.68,18.76 8.59,20 12,20C15.41,20 18.32,18.76 19.47,16.32L20.92,17.21L21.39,16.32L19.82,15.38L19.96,14.67L21.72,14.93L21.93,13.95L20,13.66C19.93,12.67 19.59,12.24 19.04,11.41C20.97,7.46 19,4.5 19,4.5C16.6,4.5 14.19,7.07 13.33,8.09L12,8M9,11A1,1 0 0,1 10,12A1,1 0 0,1 9,13A1,1 0 0,1 8,12A1,1 0 0,1 9,11M15,11A1,1 0 0,1 16,12A1,1 0 0,1 15,13A1,1 0 0,1 14,12A1,1 0 0,1 15,11M11,14H13L12.3,15.39C12.5,16.03 13.06,16.5 13.75,16.5A1.5,1.5 0 0,0 15.25,15H15.75A2,2 0 0,1 13.75,17C13,17 12.35,16.59 12,16V16H12C11.65,16.59 11,17 10.25,17A2,2 0 0,1 8.25,15H8.75A1.5,1.5 0 0,0 10.25,16.5C10.94,16.5 11.5,16.03 11.7,15.39L11,14Z" />
-                    </svg>
+                    <img
+                      src={plush}
+                      alt="Italian Trulli"
+                      width="240"
+                      height="180"
+                    />
+                    Why you totally wanted this: Because there was
+                    something appealing about turning these guys into
+                    their ball shape. ALSO, they were extremely cute.
                   </div>
                 </div>
               </div>
               <div class="card">
                 <div class="card__side card__side--front card__side--front-3">
-                  <div class="card__description">3</div>
+                  <div class="card__description">
+                    <img
+                      src={trolls}
+                      alt="Italian Trulli"
+                      width="240"
+                      height="180"
+                    />
+                    Troll Doll (Danish: Gjøltrold) is a type of plastic
+                    doll with furry up-combed hair depicting a troll, also
+                    known as a Dam doll after their creator Danish
+                    woodcutter Thomas Dam. The toys are also known as good
+                    luck trolls , or alternatively gonk trolls in the
+                    United Kingdom.
+                  </div>
                 </div>
                 <div class="card__side card__side--back card__side--back-3">
                   <div class="card__description">
-                    <svg width="50" height="50" viewBox="0 0 24 24">
-                      <path d="M11.25,6A3.25,3.25 0 0,1 14.5,2.75A3.25,3.25 0 0,1 17.75,6C17.75,6.42 18.08,6.75 18.5,6.75C18.92,6.75 19.25,6.42 19.25,6V5.25H20.75V6A2.25,2.25 0 0,1 18.5,8.25A2.25,2.25 0 0,1 16.25,6A1.75,1.75 0 0,0 14.5,4.25A1.75,1.75 0 0,0 12.75,6H14V7.29C16.89,8.15 19,10.83 19,14A7,7 0 0,1 12,21A7,7 0 0,1 5,14C5,10.83 7.11,8.15 10,7.29V6H11.25M22,6H24V7H22V6M19,4V2H20V4H19M20.91,4.38L22.33,2.96L23.04,3.67L21.62,5.09L20.91,4.38Z" />
-                    </svg>
+                    <img
+                      src={simon}
+                      alt="Italian Trulli"
+                      width="240"
+                      height="180"
+                    />
+                    Simon Says (or Simple Simon Says) is a game for 3 or
+                    more players where 1 player takes the role of "Simon"
+                    and issues instructions (usually physical actions such
+                    as "jump in the air" or "stick out your tongue") to
+                    the other players, which should only be followed if
+                    prefaced with the phrase "Simon says".
                   </div>
                 </div>
               </div>

@@ -18,7 +18,7 @@ body {
 }
 
 .content {
-    height: 55vh;
+    height: 70vh;
     width: 95%;
     background: #F9F000;
     margin: 2em auto;
@@ -34,7 +34,7 @@ body {
 .card {
     width: 25%;
     position: relative;
-    height: 25em;
+    height: 45em;
     perspective: 150em;
 
     &__side {
@@ -42,7 +42,7 @@ body {
         top: 0;
         left: 0;
         width: 100%;
-        height: 25em;
+        height: 35em;
         backface-visibility: hidden;
         transition: all .6s ease;
         box-shadow: 1em 1em 2em rgba(0, 0, 0, .2);
