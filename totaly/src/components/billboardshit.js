@@ -209,6 +209,27 @@ class Music extends Component
                         width="240"
                         height="180"
                       />
+                      1985
+                       <br />
+                      1. Careless Whisper
+                    <br />
+                      2.Like A Virgin
+                    <br />
+                      3.Wake me up before  you go-go
+                    <br />
+                      4.i want to know what love is 
+                    <br />
+                     5.i feel for you
+                    <br />
+                      6.out of touch
+                    <br />
+                      7.caribbean queen
+                       <br />
+                      8.everybody wants to rule the world
+                    <br />
+                      9.crazy for you
+                    <br />
+                    10. take on me
                     </div>
                   </div>
                   <div class="card__side card__side--back card__side--back-1">
